@@ -1,0 +1,25 @@
+
+table, td, th{
+    border: 1px solid black;
+}
+
+table{
+    width: 80%;
+    height: 50%;
+    text-align: center;
+    font-size: bold;
+    margin: 10%; 
+}
+th {
+    background-color: #04AA6D;
+}
+tr:hover{
+    background-color: coral;
+    cursor: pointer;
+}
+tr:nth-child(odd) {
+    background-color: pink;
+}
+
+
+   

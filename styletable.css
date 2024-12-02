@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    width: 100%;
+    height: 800%;
+    margin-top: 30%;
+    text-align: center;
+    color: brown;
+    font-size: bold;
+}
+table, th, td 
+		{
+  		border:1px solid black;
+		}
+
+table{
+    tr:nth-child(even){
+        background-color: pink;
+    }
+    td:nth-child(odd){
+        background-color: red;
+    }
+}
+th{
+    background-color: burlywood;
+}
